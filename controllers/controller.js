@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://root:root@ds121190.mlab.com:21190/todo");
+mongoose.connect("URI");
 
 var schema = new mongoose.Schema({
   item: String
